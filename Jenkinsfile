@@ -32,7 +32,7 @@ node('node') {
             from: 'xxxx@yyyy.com',
             replyTo: 'yyyy@yyyy.com',
             subject: 'project build failed',
-            to: 'zzzz@yyyyy.com'
+          ##  to: 'zzzz@yyyyy.com'
 
         throw err
     }
