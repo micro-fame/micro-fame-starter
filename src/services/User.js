@@ -1,4 +1,4 @@
-const { RestModel, Remote } = require('micro-fame');
+const { RestService, Remote } = require('micro-fame');
 
 @RestModel({
   endpoint: 'no-user'

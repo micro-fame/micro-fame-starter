@@ -1,6 +1,6 @@
 {
   "name": "micro-fame-starter",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "micro-fame-starter",
   "main": "dist/index.js",
   "author": "Yogesh Agarwal",
@@ -14,7 +14,7 @@
     "build-start": "npm run build && node ."
   },
   "dependencies": {
-    "micro-fame": "^0.2.0"
+    "micro-fame": "^0.4.1"
   },
   "devDependencies": {
     "ava": "^0.19.1",
