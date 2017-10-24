@@ -1,10 +1,9 @@
 const { RestService, Remote } = require('micro-fame');
 
-@RestModel({
+@RestService({
   endpoint: 'no-user'
 })
 class User {
-
   @Remote({
     path: '/',
     method: 'get'
